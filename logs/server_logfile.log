@@ -1,0 +1,54 @@
+INFO  2021-04-15 22:10:08 [main] Server (Server.java:30) - Сервер запущен на порту: 8189
+INFO  2021-04-15 22:10:08 [main] Server (Server.java:32) - Ожидание клиентов...
+INFO  2021-04-15 22:10:17 [main] Server (Server.java:34) - Новый клиент подключился
+INFO  2021-04-15 22:10:17 [main] Server (Server.java:32) - Ожидание клиентов...
+ERROR 2021-04-15 22:10:27 [Thread-1] ClientHandler (ClientHandler.java:46) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_191]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_191]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_191]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_191]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_191]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_191]
+	at ClientHandler.lambda$new$0(ClientHandler.java:38) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+INFO  2021-04-15 22:10:49 [main] Server (Server.java:34) - Новый клиент подключился
+INFO  2021-04-15 22:10:49 [main] Server (Server.java:32) - Ожидание клиентов...
+ERROR 2021-04-15 22:10:54 [Thread-2] ClientHandler (ClientHandler.java:46) - Throwing
+java.io.EOFException: null
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:340) ~[?:1.8.0_191]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_191]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_191]
+	at ClientHandler.lambda$new$0(ClientHandler.java:38) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+INFO  2021-04-15 22:16:26 [main] Server (Server.java:30) - Сервер запущен на порту: 8189
+INFO  2021-04-15 22:16:26 [main] Server (Server.java:32) - Ожидание клиентов...
+ERROR 2023-05-17 20:46:49 [main] Server (Server.java:38) - Throwing
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method) ~[?:1.8.0_302]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_302]
+	at java.net.ServerSocket.bind(ServerSocket.java:390) ~[?:1.8.0_302]
+	at java.net.ServerSocket.<init>(ServerSocket.java:252) ~[?:1.8.0_302]
+	at java.net.ServerSocket.<init>(ServerSocket.java:143) ~[?:1.8.0_302]
+	at Server.<init>(Server.java:29) [classes/:?]
+	at ServerApp.main(ServerApp.java:5) [classes/:?]
+ERROR 2023-05-17 20:52:29 [main] Server (Server.java:38) - Throwing
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method) ~[?:1.8.0_302]
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387) ~[?:1.8.0_302]
+	at java.net.ServerSocket.bind(ServerSocket.java:390) ~[?:1.8.0_302]
+	at java.net.ServerSocket.<init>(ServerSocket.java:252) ~[?:1.8.0_302]
+	at java.net.ServerSocket.<init>(ServerSocket.java:143) ~[?:1.8.0_302]
+	at Server.<init>(Server.java:29) [classes/:?]
+	at ServerApp.main(ServerApp.java:5) [classes/:?]
+INFO  2023-05-27 16:58:59 [main] ru.geekbrains.online.chat.server.Server (Server.java:30) - Сервер запущен на порту: 8189
+INFO  2023-05-27 16:58:59 [main] ru.geekbrains.online.chat.server.Server (Server.java:32) - Ожидание клиентов...
+INFO  2023-05-27 16:59:25 [main] ru.geekbrains.online.chat.server.Server (Server.java:34) - Новый клиент подключился
+INFO  2023-05-27 16:59:25 [main] ru.geekbrains.online.chat.server.Server (Server.java:32) - Ожидание клиентов...
+ERROR 2023-05-27 16:59:31 [Thread-1] ru.geekbrains.online.chat.server.ClientHandler (ClientHandler.java:46) - Throwing
+java.io.EOFException: null
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:340) ~[?:1.8.0_302]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_302]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_302]
+	at ru.geekbrains.online.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:38) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_302]
