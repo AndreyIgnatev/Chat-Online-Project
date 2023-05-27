@@ -29,7 +29,7 @@
   </dev>
     <dev>
    <p> Окно входа </p>
-   <img width="400" height="260" src="img/to come in.png"> 
+   <img width="400" height="260" src="img/to come in .png"> 
    <p> Основной экран приложения с тремя пользователями </p>
    <img width="400" height="260" src="img/windows_chat.png"> 
     </dev>   
@@ -42,7 +42,7 @@
    <dev>
    <p>Требуется выполнить следующие шаги:</p>
      <ul>
-     <li>Сделать git clone этого проекта: <a href="https://github.com/AndreyIgnatev/AndreyIgnatev-Chat-Online-Project.git">https://github.com/AndreyIgnatev/AndreyIgnatev-Chat-Online-Project.git</a></li>
+     <li>Сделать git clone этого проекта: <a href="https://github.com/AndreyIgnatev/Chat-Online-Project.git">https://github.com/AndreyIgnatev/Chat-Online-Project.git</a></li>
      <li>Собрать архив при помощи maven, используя команду в терминале: <code>mvn clean package</code></li>
     </ul>
          </dev>
